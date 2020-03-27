@@ -8,7 +8,7 @@ using Microsoft.Extensions.Logging;
 namespace SimpleAPI.Controllers
 {
     [Route("api/[controller]")]
-    [ApiController] 
+    [ApiController]
     public class ValuesController : ControllerBase
     {
         // GET api/values
@@ -22,7 +22,7 @@ namespace SimpleAPI.Controllers
         [HttpGet("{id}")]
         public ActionResult<string> Get(int id)
         {
-            return "Sebastiaan Borst";
+            return "Max Power";
         }
     }
 }
